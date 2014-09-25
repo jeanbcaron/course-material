@@ -5,6 +5,7 @@
 >>>>>>> upstream/master
 
 Introduces: dict.
+
 Author(s): @c24b.
 
 ## Instructions
@@ -62,7 +63,7 @@ velib = \
         'name': 'CHAMPEAUX (BAGNOLET)-',
         'longitude': 2.416170724425901
     },
-    {   'address': "52 RUE D'ENGHIEN / ANGLE RUE DU FAUBOURG POISSONIERE - 75010 PARIS",
+    {   'address': "52 RUE D'ENGHIEN / ANGLE RUE DU FAUBOURG POISSONIERE - 75010 PARIS", 
         'zip': '75010',
         'number': 10042, 'latitude': 48.87242006305313, 'city': 'PARIS-',
         'name': 'ENGHIEN-',
@@ -84,8 +85,8 @@ velib = \
     {
         'address': '139 AVENUE JEAN LOLIVE / MAIL CHARLES DE GAULLE - 93500 PANTIN-',
         'zip': '93500-',
-        'number': 35014,
-        'latitude': 48.893268664697416,
+        'number': 35014, 
+        'latitude': 48.893268664697416, 
         'city': 'PANTIN-',
         'name': 'DE GAULLE (PANTIN)-',
         'longitude': 2.412715733388685
@@ -98,14 +99,23 @@ velib = \
 <<<<<<< HEAD
 
 
+<<<<<<< HEAD
 =======
 Be ***very*** careful of the output format.
 "The devil is in the details".
+=======
+Be ***very*** careful of the output format. 
+"The devil is in the details". 
+>>>>>>> upstream/master
 Check, check and re-check!
 
 ##Example
 
+<<<<<<< HEAD
 ```python
+>>>>>>> upstream/master
+=======
+```python 
 >>>>>>> upstream/master
 
 def check_my_city(city_name):
@@ -114,7 +124,7 @@ def check_my_city(city_name):
     else:
         ...
         #here it's obviously an example to give you an idea!
-        return {"stations_nb": 2,
+        return {"stations_nb": 2, 
                 "zip_code": ['93170', '93320'],
                 "city": 'pantin'}
 
